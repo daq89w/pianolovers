@@ -1,0 +1,42 @@
+.link-container{
+    width:150px;
+    height:150px;
+    position:relative;
+    text-align: center;
+    padding:2px;
+    filter:grayscale(100%);
+    border: 2px solid black;
+    border-radius:10px;
+    background-color:white;
+}
+.link-container:hover{
+    filter:grayscale(0%);
+    background-color:black;
+}
+
+.link-image-style{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    //position:absolute;
+    left:0;
+    top:0;
+    border-radius:10px;
+    
+}
+
+
+
+.link-text-style{
+    z-index:1;
+    border-radius:10px;
+    position:absolute;
+    color:white;
+    left:0;
+    right:0;
+    margin:auto;
+    width:80%;
+    background-color:rgba(0,0,0,0.5);
+    font-size:18px;
+}
+

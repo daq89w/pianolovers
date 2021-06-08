@@ -1,0 +1,14 @@
+.flexbox-container{
+    padding-top:20px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.flexbox-item{
+    width:auto;
+    height:auto;
+}
+
+
